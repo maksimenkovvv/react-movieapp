@@ -1,0 +1,89 @@
+.ant-card {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px rgba(0,0,0,.25);
+    height: 281px;
+    width: 47.5%;
+    min-width: 420px;
+    max-width: 700px;
+    overflow: hidden;
+    border: 1px outset rgba(24, 144, 255, 25);
+    border-radius: 6px;
+}
+
+.ant-item {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+
+.ant-image img {
+    height: 281px;
+    width: 183px;
+}
+
+.ant-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+    position: relative;
+}
+
+.ant-info {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.ant-grade {
+    display: right
+}
+
+.ant-title {
+    display: flex;
+    color: black;
+    font-family: 'Inter UI';
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 7px;
+}
+
+.ant-date {
+    display: flex;
+    font-family: 'Inter UI';
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 7px;
+    color: #827E7E;
+}
+
+.ant-genres {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 10px;
+}
+
+/* .ant-card-body {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .ant-header { */
+    /* margin-left: 20px; */
+/* } */
+
+/* 
+
+
+
+
+
+.ant-overview {
+    font-family: 'Inter UI';
+    font-size: 12px;
+    line-height: 22px;
+    color: black;
+}  */

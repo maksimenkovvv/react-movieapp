@@ -1,0 +1,7 @@
+.movielist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 32px;
+}

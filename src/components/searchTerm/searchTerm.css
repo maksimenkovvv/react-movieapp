@@ -1,0 +1,16 @@
+.search {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ant-input {
+    height: 40px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: #1890FF;
+    border-radius: 6px;
+}
+
+.ant-input:focus-visible {
+    border-color: #1890FF;
+}   

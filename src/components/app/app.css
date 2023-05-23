@@ -1,0 +1,67 @@
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ant-layout {
+  background: white;
+}
+
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    /* background: rgba(255, 255, 255, 0.3); */
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+
+  .ant-tabs {
+    position: relative;
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+    padding-top: 16px;
+    text-align: center;
+}
+
+.ant-nav {
+  position: relative;
+  display: flex;
+  transition: opacity 0.3s;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.09);
+  gap: 16px;
+  text-align: center;
+}
+
+.ant-search :hover :active {
+  /* border-bottom: 1px solid; */
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.09);
+}
+
+.ant-rate {
+  /* border-bottom: 1px solid; */
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.09);
+}
+
+/* .col {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+} */
